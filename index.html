@@ -4,18 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>COVID-19 Map</title>
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
-    <div id='map' style='width: 400px; height: 300px;'></div>
-        <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JpZWdpdGUiLCJhIjoiY2s3bzAwdzhuMDRiMzNtbXF4YXlpcTBvNSJ9.IbIqH8zs10C4ugVMFYIHQg';
-        var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11'
-        });
-</script>
+    <div id='map' style='width: 100vw; height: 100vh;'></div>
+    <script src='script.js'></script>
 </body>
 </html>
