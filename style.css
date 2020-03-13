@@ -1,0 +1,8 @@
+*, *:before, *:after {
+    box-sizing:border-box;
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+}
